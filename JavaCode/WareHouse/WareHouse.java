@@ -4,7 +4,7 @@ import Inventory.Inventory;
 import java.util.*;
 
 public class WareHouse {
-    Inventory inventory;
+    public Inventory inventory;
     Address address;
 
     public WareHouse(Address address) {
