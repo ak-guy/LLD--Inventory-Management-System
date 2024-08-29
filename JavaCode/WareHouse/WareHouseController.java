@@ -2,7 +2,7 @@ package WareHouse;
 
 import java.util.*;
 
-import WareHouse.WareHouseSelectingStrategy.WareHouseSelectingStrategy;.*
+import WareHouse.WareHouseSelectingStrategy.WareHouseSelectingStrategy;
 
 public class WareHouseController {
     List<WareHouse> wareHouseList;
