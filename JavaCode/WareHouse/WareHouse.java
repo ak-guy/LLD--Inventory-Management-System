@@ -1,7 +1,6 @@
 package WareHouse;
 
 import Inventory.Inventory;
-import Product.Product;
 import java.util.*;
 
 public class WareHouse {
@@ -13,11 +12,11 @@ public class WareHouse {
         this.address = address;
     }
 
-    public void removeItemFromInventory(Map<String, Product> productCategoryVsProduct) {
+    public void removeItemFromInventory(Map<Integer, Integer> productCategoryVsProduct) {
         inventory.removeProduct(productCategoryVsProduct);
     }
 
-    public void addItemToInventory() {
-        
+    public void addItemToInventory(Map<Integer, Integer> productCategoryIDVsCount) {
+        // to implement
     }
 }

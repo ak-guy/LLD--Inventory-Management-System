@@ -17,7 +17,7 @@ public class UserController {
         userList.remove(user);
     }
 
-    public User getUser(String userID) {
+    public User getUser(int userID) {
         for (User user: userList) {
             if (user.getUserID() == userID) {
                 return user;

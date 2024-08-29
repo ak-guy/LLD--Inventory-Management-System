@@ -5,24 +5,24 @@ import Cart.Cart;
 import WareHouse.Address;
 
 public class User {
-    String userID;
+    int userID;
     String userName;
     Address address;
     Cart userCartDetails;
     List<Integer> orderID;
 
-    public User(String userID, String userName) {
+    public User(int userID, String userName) {
         this.userID = userID;
         this.userName = userName;
         userCartDetails = new Cart();
         orderID = new ArrayList<>();
     }
 
-    public String getUserID() {
+    public int getUserID() {
         return userID;
     }
 
-    public void setUserID(String userID) {
+    public void setUserID(int userID) {
         this.userID = userID;
     }
 

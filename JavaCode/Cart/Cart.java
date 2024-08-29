@@ -3,7 +3,7 @@ package Cart;
 import java.util.*;
 
 public class Cart {
-    Map<Integer, Integer> productCategoryIDVsCount;
+    public Map<Integer, Integer> productCategoryIDVsCount;
 
     public Cart() {
         productCategoryIDVsCount = new HashMap<>();

@@ -1,13 +1,13 @@
 package Product;
 
 public class Product {
-    String productID;
+    int productID;
     String productName;
 
-    public String getProductID() {
+    public int getProductID() {
         return productID;
     }
-    public void setProductID(String productID) {
+    public void setProductID(int productID) {
         this.productID = productID;
     }
     public String getProductName() {

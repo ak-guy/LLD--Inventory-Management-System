@@ -3,7 +3,7 @@ package Product;
 import java.util.*;
 
 public class ProductCategory {
-    String productCategoryID;
+    int productCategoryID;
     String productCategoryName;
     List<Product> productList;
     double price; // all products belonging to a particular product_category will have same price
@@ -12,19 +12,17 @@ public class ProductCategory {
         productList.add(product);
     }
 
-    public void removeProduct(Product product) {
-        for (Product p: productList) {
-            if (p.getProductID().equals(product.getProductID())){
-                productList.remove(product);
-            }
+    public void removeProduct(int count){
+        for(int i=1;i<=count;i++){
+            productList.remove(0);
         }
     }
 
-    public String getProductCategoryID() {
+    public int getProductCategoryID() {
         return productCategoryID;
     }
 
-    public void setProductCategoryID(String productCategoryID) {
+    public void setProductCategoryID(int productCategoryID) {
         this.productCategoryID = productCategoryID;
     }
 
